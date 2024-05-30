@@ -41,7 +41,7 @@ h1 b{
   position:absolute;
   text-align: center;
   width: 300px;
-  height: 200%;
+  height: 150%;
   margin-left: -150px;
   overflow-y: auto;
   overflow-x: hidden;
@@ -123,4 +123,8 @@ h1 b{
     background-color: rgb(100, 30, 165);
     border-color: rgb(100, 30, 165);
     color: rgb(180, 180, 180);
+}
+
+#buttonRow{
+  margin-top: 400px;
 }
