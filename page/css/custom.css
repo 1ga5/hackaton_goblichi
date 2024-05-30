@@ -1,26 +1,57 @@
 @font-face {
-    font-family: Oswald;
-    src: url(../font/Oswald/Oswald-VariableFont_wght.ttf);
+  font-family: Oswald;
+  src: url(../font/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
 body{
-    background: linear-gradient(
-        135deg,
-        rgba(33, 0, 142, 0.811) 15%,
-        rgba(2, 7, 57, 0.858) 20%,
-        rgb(0, 0, 0) 25%
-      );
-    color: rgba(230, 230, 230, 0.886) !important;
+  background: linear-gradient(
+      135deg,
+      rgba(33, 0, 142, 0.811) 15%,
+      rgba(2, 7, 57, 0.858) 20%,
+      rgb(0, 0, 0) 25%
+    );
+  color: rgba(230, 230, 230, 0.886) !important;
 }
 
 h1{
-    font-family: Oswald;
-    color: white !important;
+  font-family: Oswald;
+  color: white !important;
+}
+
+p{
+  font-family: Oswald;
+  color: white !important;
+  text-align: left;
 }
 
 h1 b{
-    background: -webkit-linear-gradient(left, #0079cf, #00fac4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(left, #0079cf, #00fac4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.horizontal-scroll-wrapper {
+  position:absolute;
+  text-align: center;
+  width: 300px;
+  height: 200%;
+  margin-left: -150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg);
+  transform-origin: right top;
+  transform:rotate(-90deg) translateY(-100px);
+}
+
+.horizontal-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.pictures {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transform: rotate(90deg);
+  transform-origin: right top;
 }
