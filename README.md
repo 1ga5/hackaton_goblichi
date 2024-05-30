@@ -8,3 +8,5 @@
 
 Стек: html + css
 
+Презентация на genially: https://view.genially.com/665888a80d533a00143a348f/presentation-hakaton-goblichi
+
