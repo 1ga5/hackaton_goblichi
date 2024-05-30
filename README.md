@@ -1,2 +1,10 @@
 # hackaton_goblichi
-Hackaton site designed by goblichi
+Дизайн сайта для презентации проектов, разработанный студентами ИТ-22
+
+Разработчики:
+1. Кувшинов Андрей Андреевич | https://github.com/RayKoltner | +79171835186
+2. Камалетдинов Артём Русланович | https://github.com/goblinak | +79608519776
+3. Некипелов Игорь Сергеевич | https://github.com/1ga5 | +79371235859
+
+Стек: html + css
+
