@@ -3,14 +3,20 @@
   src: url(../font/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Wingdings;
+    src: url(../font/wingdng3/wingdng3.ttf);
+}
+
 body{
-  background: linear-gradient(
-      135deg,
-      rgba(33, 0, 142, 0.811) 15%,
-      rgba(2, 7, 57, 0.858) 20%,
-      rgb(0, 0, 0) 25%
-    );
-  color: rgba(230, 230, 230, 0.886) !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(
+        135deg,
+        rgba(33, 0, 142, 0.811) 15%,
+        rgba(2, 7, 57, 0.858) 20%,
+        rgb(0, 0, 0) 25%
+      );
+    color: rgba(230, 230, 230, 0.957) !important;
 }
 
 h1{
@@ -54,4 +60,63 @@ h1 b{
   text-align: center;
   transform: rotate(90deg);
   transform-origin: right top;
+}
+
+#overhead{
+    padding: 3%;
+}
+
+#overhead h4{
+    margin-left: 5%;
+    border: 2px solid rgb(84, 84, 84);
+    border-radius: 8px;
+    width: auto;
+}
+
+.generalButton{
+    font-family: Wingdings;
+    color: white;
+    background-color: blueviolet;
+    border: 300%;
+    border-radius: 100%;
+    width: 7ch;
+    height: 7ch;
+}
+
+.generalButton:hover{
+    background-color: rgb(100, 30, 165);
+    color: rgb(180, 180, 180);
+}
+
+#readMore{
+    border-radius: 8px;
+    color: rgb(94, 94, 94);
+    background-color: aliceblue;
+    width: max-content;
+    height: max-content;
+    padding: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#readMore:hover{
+    color: black;
+    background-color: grey;
+}
+
+#readMore b{
+    font-family: Wingdings;
+    background-color: blueviolet;
+    font-size: xx-large;
+    border: 5px solid blueviolet;
+    border-radius: 100%;
+    color: white;
+    width: 2ch;
+    height: 2ch;
+}
+
+#readMore:hover b{
+    background-color: rgb(100, 30, 165);
+    border-color: rgb(100, 30, 165);
+    color: rgb(180, 180, 180);
 }
