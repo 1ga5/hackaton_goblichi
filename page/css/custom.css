@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../font/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
 body{
     background: linear-gradient(
         135deg,
@@ -5,4 +10,17 @@ body{
         rgba(2, 7, 57, 0.858) 20%,
         rgb(0, 0, 0) 25%
       );
+    color: rgba(230, 230, 230, 0.886) !important;
+}
+
+h1{
+    font-family: Oswald;
+    color: white !important;
+}
+
+h1 b{
+    background: -webkit-linear-gradient(left, #0079cf, #00fac4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
