@@ -67,10 +67,11 @@ h1 b{
 }
 
 #overhead h4{
-    margin-left: 5%;
+    margin-left: 2%;
     border: 2px solid rgb(84, 84, 84);
     border-radius: 8px;
     width: auto;
+    font-size: medium;
 }
 
 .generalButton{
@@ -79,8 +80,9 @@ h1 b{
     background-color: blueviolet;
     border: 300%;
     border-radius: 100%;
-    width: 7ch;
-    height: 7ch;
+    font-size: larger;
+    width: 5ch;
+    height: 5ch;
 }
 
 .generalButton:hover{
@@ -97,6 +99,7 @@ h1 b{
     padding: 10%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    vertical-align: middle;
 }
 
 #readMore:hover{
@@ -113,6 +116,7 @@ h1 b{
     color: white;
     width: 2ch;
     height: 2ch;
+    padding: 0;
 }
 
 #readMore:hover b{
