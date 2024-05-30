@@ -48,8 +48,9 @@ h1 b{
     background-color: blueviolet;
     border: 300%;
     border-radius: 100%;
-    width: 7ch;
-    height: 7ch;
+    font-size: larger;
+    width: 5ch;
+    height: 5ch;
 }
 
 .generalButton:hover{
@@ -82,6 +83,7 @@ h1 b{
     color: white;
     width: 2ch;
     height: 2ch;
+    padding: 0;
 }
 
 #readMore:hover b{
